@@ -1,77 +1,68 @@
-Rabbit
-Rabbit is a full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, and Node.js). It allows users to browse products, add them to the cart, and securely checkout. An admin panel is also available for managing products, users, and orders.
+ Rabbit
+Rabbit is a modern full-stack e-commerce platform where users can explore, purchase, and manage products online. It features a customer-friendly shopping experience with secure payments and a powerful admin dashboard for managing users, orders, and inventory.
 
-live demo
+🌐 Live Demo
 https://rabbit-nfmc.vercel.app/
 
-Features
-User authentication and authorization (register/login/logout)
+🚀 Features
 
-Product listing with filters (category, price, etc.)
+🛒 For Customers:
 
-Shopping cart and checkout system
+Browse and search products by category
 
-PayPal payment integration
+Add products to the cart
 
-Admin dashboard for managing products, users, and orders
+Checkout with secure PayPal integration
 
-Responsive design for all devices
+Responsive design for all screen sizes
 
-Tech Stack
-Frontend: React, Redux Toolkit, Tailwind CSS
+User-friendly account dashboard
 
-Backend: Node.js, Express.js
+🛠️ For Admin:
 
-Database: MongoDB with Mongoose
+Add, update, and delete products
 
-Authentication: JWT (JSON Web Tokens)
+Manage orders and track user activity
 
-Payments: PayPal REST API
+Role-based access and secure login
 
-Getting Started
-Prerequisites
-Node.js and npm
+Monitor and manage inventory
 
-MongoDB installed locally or access to a cloud instance (e.g. MongoDB Atlas)
+🧑‍💻 Tech Stack
 
-Installation
-Clone the repository:
+🔹 Frontend
+
+React.js
+
+Redux Toolkit
+
+Tailwind CSS
+
+React Router DOM
+
+Axios
+
+🔸 Backend
+
+Node.js
+
+Express.js
+
+MongoDB with Mongoose
+
+JWT Authentication
+
+PayPal API Integration
+
+Dotenv & Bcrypt for secure configuration and encryption
+
+⚙️ Installation & Setup
+
+Clone the repository
 
 bash
 Copy
 Edit
 git clone https://github.com/Shivam0643/Rabbit.git
 cd Rabbit
-Install frontend and backend dependencies:
 
-bash
-Copy
-Edit
-cd frontend
-npm install
-cd ../backend
-npm install
-Set up environment variables. Create .env files in both frontend and backend with the necessary keys like:
-
-For backend .env:
-
-ini
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PAYPAL_CLIENT_ID=your_paypal_client_id
-Run the development servers:
-
-bash
-Copy
-Edit
-# In backend
-npm run dev
-
-# In frontend (open new terminal)
-cd frontend
-npm start
-
-to clone this repo
-https://github.com/Shivam0643/Rabbit.git
